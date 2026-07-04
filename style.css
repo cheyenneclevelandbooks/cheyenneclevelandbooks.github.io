@@ -964,3 +964,10 @@ dd { margin: 0; color: var(--white); }
     transition-duration: 0.01ms !important;
   }
 }
+
+/* Final Lighthouse stability patch: content is visible without waiting for JS. */
+.reveal{opacity:1;transform:none;transition:none}
+
+.site-credit{margin:0;color:rgba(247,251,249,.48);font-size:.78rem;line-height:1.6}
+.site-credit a{font-weight:800;color:rgba(247,251,249,.68);text-decoration:none}
+.site-credit a:hover{color:var(--gold);text-decoration:underline;text-underline-offset:4px}

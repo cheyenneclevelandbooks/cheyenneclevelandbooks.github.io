@@ -24,3 +24,12 @@
 ## Handoff note
 
 This site is now client-owned. No agency/demo domain is used as the canonical website URL.
+
+
+## Google Search Console verification
+
+This package includes `google8033222722d64d6a.html` in the root folder. Upload it with the rest of the website files so Google Search Console can verify the property.
+
+## Footer credit links
+
+The footer includes subtle credit links to `https://kronatrix.co.uk/` and `https://authors.kronatrix.co.uk/` for website/AI.SEO support.

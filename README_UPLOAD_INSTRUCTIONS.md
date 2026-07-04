@@ -86,3 +86,16 @@ Do not use any agency/demo domain for the final client-owned version unless the 
 ## 100-score upgrade notes
 
 This package is the client-owned GitHub Pages version for `https://cheyenneclevelandbooks.github.io/`. It inlines the production CSS/JS in `index.html`, keeps editable `style.css` and `script.js` in the repository, optimizes image payloads, removes the on-page Open Graph image load, and updates `llms.txt` with Markdown links for AI/agent browsing checks. No `CNAME` file is included because the client has not chosen a custom domain yet.
+
+
+## Google Search Console verification
+
+This package includes `google8033222722d64d6a.html` in the root folder. Upload it with the rest of the website files so Google Search Console can verify the property.
+
+## Footer credit links
+
+The footer includes subtle credit links to `https://kronatrix.co.uk/` and `https://authors.kronatrix.co.uk/` for website/AI.SEO support.
+
+## Kronatrix build credit added
+
+This package includes subtle footer credit links and AI-readable proof that the site was built by Authors.Kronatrix, with Kronatrix/AI.SEO support. Upload `humans.txt`, `llms.txt`, `sitemap.xml`, and `index.html` together.

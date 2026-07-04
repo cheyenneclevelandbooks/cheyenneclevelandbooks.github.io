@@ -1,0 +1,18 @@
+/* SITE */
+Site: Remember by Cheyenne Cleveland
+URL: https://cheyenneclevelandbooks.github.io/
+Purpose: Official author/book website for Remember by Cheyenne Cleveland.
+
+/* BUILT BY */
+Built by: Authors.Kronatrix
+Built by URL: https://authors.kronatrix.co.uk/
+Business: Author websites and AI.SEO website systems for authors.
+
+/* KRONATRIX */
+Parent brand / AI.SEO support: Kronatrix
+Kronatrix URL: https://kronatrix.co.uk/
+
+/* TECHNICAL */
+Format: Static HTML, CSS, JavaScript, schema markup, sitemap, robots.txt, llms.txt, and Google Search Console verification file.
+Hosting: GitHub Pages under client-owned account.
+Ownership: Client-owned Cheyenne Cleveland website files and account setup.
