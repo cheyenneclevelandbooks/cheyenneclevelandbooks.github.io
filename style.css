@@ -613,8 +613,8 @@ dd { margin: 0; color: var(--white); }
   text-align: center;
   border: 1px solid rgba(255,255,255,0.14);
   background:
-    linear-gradient(rgba(2,6,5,0.58), rgba(2,6,5,0.86)),
-    url('remember-by-cheyenne-cleveland-og-image.webp') center/cover no-repeat;
+    radial-gradient(circle at 50% 0%, rgba(56,240,179,0.17), transparent 38rem),
+    linear-gradient(135deg, rgba(2,6,5,0.92), rgba(6,30,23,0.86));
   box-shadow: var(--shadow), var(--green-glow);
 }
 .final-panel p { max-width: 690px; margin-inline: auto; }
@@ -948,4 +948,19 @@ dd { margin: 0; color: var(--white); }
   .hero-copy .eyebrow { margin-bottom: .45rem; }
   .hero-actions { margin-top: .9rem; }
   .comparison { display: none; }
+}
+
+/* Performance containment for sections below the first screen. */
+.section, .signal-strip, .site-footer {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 720px;
+}
+.hero, .site-header { content-visibility: visible; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
 }

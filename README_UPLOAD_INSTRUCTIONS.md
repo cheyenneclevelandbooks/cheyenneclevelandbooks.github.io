@@ -81,3 +81,8 @@ When Cheyenne chooses a final domain, for example `cheyennecleveland.com`, updat
 - Google Search Console property
 
 Do not use any agency/demo domain for the final client-owned version unless the client specifically asks for managed hosting.
+
+
+## 100-score upgrade notes
+
+This package is the client-owned GitHub Pages version for `https://cheyenneclevelandbooks.github.io/`. It inlines the production CSS/JS in `index.html`, keeps editable `style.css` and `script.js` in the repository, optimizes image payloads, removes the on-page Open Graph image load, and updates `llms.txt` with Markdown links for AI/agent browsing checks. No `CNAME` file is included because the client has not chosen a custom domain yet.
