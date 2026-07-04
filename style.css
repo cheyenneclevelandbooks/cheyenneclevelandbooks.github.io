@@ -168,9 +168,7 @@ strong, em { color: var(--white); }
   position: absolute;
   inset: 0;
   z-index: -3;
-  background:
-    linear-gradient(90deg, rgba(2,6,5,0.94) 0%, rgba(2,6,5,0.80) 36%, rgba(2,6,5,0.42) 62%, rgba(2,6,5,0.82) 100%),
-    url('remember-by-cheyenne-cleveland-book-cover.webp') center/cover no-repeat;
+  background:linear-gradient(90deg,rgba(2,6,5,.97),rgba(2,6,5,.88)),radial-gradient(circle at 72% 44%,rgba(247,180,87,.18),transparent 28rem);
   filter: saturate(1.05) contrast(1.05);
   opacity: 0.48;
   transform: scale(1.05);
@@ -856,10 +854,7 @@ dd { margin: 0; color: var(--white); }
     padding: clamp(4.7rem, 7.2vh, 5.8rem) 0 clamp(1rem, 2.2vh, 1.8rem);
   }
   .hero-bg {
-    background:
-      linear-gradient(90deg, rgba(2,6,5,0.985) 0%, rgba(2,6,5,0.92) 30%, rgba(2,6,5,0.64) 58%, rgba(2,6,5,0.86) 100%),
-      radial-gradient(circle at 24% 55%, rgba(2,6,5,0.7), transparent 34rem),
-      url('remember-by-cheyenne-cleveland-book-cover.webp') center/cover no-repeat;
+    background:linear-gradient(90deg,rgba(2,6,5,.97),rgba(2,6,5,.88)),radial-gradient(circle at 72% 44%,rgba(247,180,87,.18),transparent 28rem);
     opacity: 0.52;
     transform: scale(1.02);
   }
@@ -937,9 +932,7 @@ dd { margin: 0; color: var(--white); }
 @media (max-width: 980px) {
   .cover-badge { display: none; }
   .hero-bg {
-    background:
-      linear-gradient(180deg, rgba(2,6,5,.92) 0%, rgba(2,6,5,.72) 50%, rgba(2,6,5,.95) 100%),
-      url('remember-by-cheyenne-cleveland-book-cover.webp') center/cover no-repeat;
+    background:linear-gradient(90deg,rgba(2,6,5,.97),rgba(2,6,5,.88)),radial-gradient(circle at 72% 44%,rgba(247,180,87,.18),transparent 28rem);
     opacity: .5;
   }
 }
@@ -981,3 +974,6 @@ dd { margin: 0; color: var(--white); }
 .site-credit{margin:0;color:#c7c1af;font-size:.78rem;line-height:1.6}
 .site-credit a{font-weight:800;color:#d6c79d;text-decoration:underline;text-underline-offset:4px}
 .site-credit a:hover{color:#f0dfb0;text-decoration:underline;text-underline-offset:4px}
+
+/* Final audit stability overrides */
+.reveal{opacity:1!important;transform:none!important;transition:none!important}.hero-bg{background:linear-gradient(90deg,rgba(2,6,5,.97),rgba(2,6,5,.86)),radial-gradient(circle at 72% 44%,rgba(247,180,87,.18),transparent 28rem),radial-gradient(circle at 22% 58%,rgba(56,240,179,.16),transparent 26rem)!important;opacity:1!important;transform:none!important}
