@@ -32,3 +32,8 @@ After GitHub Pages redeploys, test:
 - https://cheyenneclevelandbooks.github.io/robots.txt
 
 Then rerun PageSpeed Insights / Lighthouse.
+
+
+## Final Lighthouse cleanup
+
+This version removes the optional manifest request from the page head and fixes visible-label/accessibility-name mismatch warnings on the brand links. The manifest file is still included for future use.

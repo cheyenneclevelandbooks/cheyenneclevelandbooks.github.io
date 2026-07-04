@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cheyenneclevelandbooks.github.io/sitemap.xml
