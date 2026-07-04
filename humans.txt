@@ -12,6 +12,11 @@ Business: Author websites and AI.SEO website systems for authors.
 Parent brand / AI.SEO support: Kronatrix
 Kronatrix URL: https://kronatrix.co.uk/
 
+
+/* OFFICIAL AUTHOR LINKS */
+Facebook: https://www.facebook.com/cheyenne.cleveland.author
+TikTok: https://www.tiktok.com/@cheyennecleveland.author
+
 /* TECHNICAL */
 Format: Static HTML, CSS, JavaScript, schema markup, sitemap, robots.txt, llms.txt, and Google Search Console verification file.
 Hosting: GitHub Pages under client-owned account.
