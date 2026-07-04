@@ -951,7 +951,7 @@ dd { margin: 0; color: var(--white); }
 }
 
 /* Performance containment for sections below the first screen. */
-.section, .signal-strip, .site-footer {
+.section, .signal-strip {
   content-visibility: auto;
   contain-intrinsic-size: auto 720px;
 }
@@ -968,6 +968,16 @@ dd { margin: 0; color: var(--white); }
 /* Final Lighthouse stability patch: content is visible without waiting for JS. */
 .reveal{opacity:1;transform:none;transition:none}
 
-.site-credit{margin:0;color:rgba(247,251,249,.48);font-size:.78rem;line-height:1.6}
-.site-credit a{font-weight:800;color:rgba(247,251,249,.68);text-decoration:none}
-.site-credit a:hover{color:var(--gold);text-decoration:underline;text-underline-offset:4px}
+.site-footer{background:#050806;border-top:1px solid rgba(214,199,157,.18)}
+.footer-bottom{border-top:1px solid rgba(214,199,157,.16)}
+.site-credit{margin:0;color:#c7c1af;font-size:.78rem;line-height:1.6}
+.site-credit a{font-weight:800;color:#d6c79d;text-decoration:underline;text-underline-offset:4px}
+.site-credit a:hover{color:#f0dfb0;text-decoration:underline;text-underline-offset:4px}
+
+
+/* Kronatrix credit contrast fix */
+.site-footer{background:#050806;border-top:1px solid rgba(214,199,157,.18)}
+.footer-bottom{border-top:1px solid rgba(214,199,157,.16)}
+.site-credit{margin:0;color:#c7c1af;font-size:.78rem;line-height:1.6}
+.site-credit a{font-weight:800;color:#d6c79d;text-decoration:underline;text-underline-offset:4px}
+.site-credit a:hover{color:#f0dfb0;text-decoration:underline;text-underline-offset:4px}
